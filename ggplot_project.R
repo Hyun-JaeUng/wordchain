@@ -158,9 +158,7 @@ barplot(eval_2019_3, main='2019년 3분기 평점', xlab='별 개수', ylab='빈
 barplot(eval_2019_4, main='2019년 4분기 평점', xlab='별 개수', ylab='빈도수', ylim = c(0,count_max))
 
 par(mfrow = c(4,1))
-barplot(eval_2018_1, main='2018년 1분기 평점', xlab='별 개수', ylab='빈도수', ylim = c(0,count_max))
-barplot(eval_2018_2, main='2018년 2분기 평점', xlab='별 개수', ylab='빈도수', ylim = c(0,count_max))
-barplot(eval_2018_3, main='2018년 3분기 평점', xlab='별 개수', ylab='빈도수', ylim = c(0,count_max))
+
 barplot(eval_2018_4, main='2018년 4분기 평점', xlab='별 개수', ylab='빈도수', ylim = c(0,count_max))
 
 # 앱 개선에 대한 평가척도 = 별점 평균
